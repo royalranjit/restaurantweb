@@ -7,7 +7,7 @@ export const Recipe = () => {
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: "80vh",
         padding: "0 156px 0 156px",
       }}
     >
