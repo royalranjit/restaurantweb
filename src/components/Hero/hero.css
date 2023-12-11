@@ -1,0 +1,97 @@
+.hero-container {
+  display: flex;
+  padding: 155px 0 0 156px;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.circle {
+  position: absolute;
+  width: 880px;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #d95103;
+  top: -1px;
+  right: -390px;
+  z-index: -1;
+}
+
+.image_container {
+  /* width: 50%; */
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_section {
+  position: absolute;
+  top: 143px;
+  right: 75px;
+}
+.paint_one {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.the_one {
+  position: absolute;
+  top: 6px;
+  left: 128px;
+  font-family: Proxima Nova;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.the {
+  /* font-family: Proxima Nova; */
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.restaurent {
+  /* font-family: Proxima Nova; */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #6b788e;
+}
+
+.momo-restaurent {
+  /* font-family: Proxima Nova; */
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #101828;
+}
+
+.explore {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  justify-content: center;
+  width: 259px;
+  height: 64px;
+  background: #0c6967;
+  color: white;
+  border-radius: 100px;
+  /* padding: 20px 40px 20px 40px; */
+  border: none;
+  margin-top: 50px;
+}
+
+.more-than {
+  font-weight: 800px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #252d43;
+  margin-top: 25px;
+}

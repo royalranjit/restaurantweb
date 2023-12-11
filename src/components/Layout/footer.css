@@ -1,0 +1,109 @@
+.footer-container {
+  /* display: flex; */
+  /* align-items: center; */
+  width: 100vw;
+  height: 403px;
+  background: #fafbfb;
+  /* border-bottom: 1px solid black; */
+  padding: 56px 0 0 0;
+}
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 56px 156px 40px 156px;
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+}
+
+.icon_momo {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  height: 40px;
+}
+.icon_momo .momos {
+  font-size: 31px;
+  font-weight: 700;
+  color: #0c6967;
+}
+
+.footer-logo-text {
+  width: 392px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b788e;
+}
+
+.about_legals {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 600px;
+  gap: 48px;
+}
+
+.text1 {
+  width: 168px;
+  height: 158px;
+  gap: 16px;
+}
+
+.footer-heading {
+  font-family: Proxima Nova;
+  font-size: 25px;
+  font-weight: 700;
+  /* line-height: 30px; */
+  /* letter-spacing: 0em; */
+  /* text-align: left; */
+  color: #0c6967;
+}
+
+.text2 {
+  width: 168px;
+  height: 127px;
+  gap: 16px;
+}
+
+.list-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #252d43;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 8.33px 0px 8.33px 0px;
+  border-radius: 100px;
+}
+
+/* .text3 {
+  width: 168px;
+  height: 142px;
+  gap: 16px;
+} */
+
+.text3 .text3-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+
+

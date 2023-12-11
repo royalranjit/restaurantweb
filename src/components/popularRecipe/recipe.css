@@ -1,0 +1,45 @@
+.recipe_title {
+  min-height: 87px;
+  width: 1128px;
+  text-align: center;
+}
+
+.recipe_title h1 {
+  color: #101828;
+}
+
+.Momos_data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+}
+
+.image-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

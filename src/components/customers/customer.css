@@ -1,0 +1,31 @@
+.boy_container {
+  width: 456px;
+  height: 505px;
+  background-color: #0c6967;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.loveus_text {
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 25px;
+}
+
+.btn-container {
+  width: 247px;
+  height: 64px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 100px;
+  gap: 8px;
+  background: #0c6967;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: none;
+  margin-top: 30px;
+}
