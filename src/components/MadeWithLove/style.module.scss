@@ -1,0 +1,15 @@
+@import "../../mixins.scss";
+
+.Love_container {
+  margin-top: px2vwL(80);
+  min-height: 100vh;
+  display: flex;
+  //   align-items: center;
+  justify-content: space-between;
+  padding-right: px2vwL(156);
+  padding-left: px2vwL(156);
+
+  :global .text_discription {
+    width: px2vwL(456);
+  }
+}

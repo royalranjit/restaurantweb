@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./header.css";
+import styles from "./style.module.scss";
 import { useNavigate } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -36,9 +36,9 @@ const Navbar = () => {
   }, []);
   return (
     <>
-      <nav className="nav-container">
+      <nav className={styles.nav_container}>
         <div
-          className="logo-container"
+          className={styles.logo_container}
           style={{ cursor: "pointer" }}
           onClick={() => navigate("/")}
         >
@@ -66,9 +66,9 @@ const Navbar = () => {
               fill="#D95103"
             />
           </svg>
-          <p className="momo">momos</p>
+          <p className={styles.momo}>momos</p>
         </div>
-        <div className="link-container">
+        <div className={styles.link_container}>
           {navData.map((item) => {
             return (
               <p
@@ -78,14 +78,14 @@ const Navbar = () => {
                 id={item.id}
                 className="menu"
                 data-aos="fade-right"
-              >
+              > 
                 {item.value}
               </p>
             );
           })}
         </div>
-        <div className="social-media_container">
-          <div className="socialMedia-icon">
+        <div className={styles.social_media_container}>
+          <div className={styles.socialMedia_icon}>
             <p>
               <svg
                 width="48"
@@ -217,7 +217,7 @@ const Navbar = () => {
               </svg>
             </p>
           </div>
-          <button className="contact">Contact Us</button>
+          <button className={styles.contact}>Contact Us</button>
         </div>
       </nav>
     </>

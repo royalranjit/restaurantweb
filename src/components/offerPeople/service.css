@@ -3,35 +3,22 @@
 }
 
 .Service_container h1 {
-  color: #101828;
+  color: #ffffff;
   text-align: center;
+  font-weight: 700px;
+  font-size: 49px;
 }
 
 .image_process {
   background-image: url("./ServiceImage.png");
+  /* background-image: url("./ServiceImage.png"), linear-gradient(0deg, #000000 11.69%, rgba(0, 0, 0, 0.9) 29.01%, rgba(0, 0, 0, 0.7) 47.41%, rgba(0, 0, 0, 0) 100%); */
   background-repeat: no-repeat;
-  height: 1440px;
+  height: 640px;
   margin-top: 50px;
   background-size: 100%;
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   object-fit: contain;
-
-  /* background: linear-gradient(
-    0deg,
-    #000000 11.69%,
-    rgba(0, 0, 0, 0.9) 29.01%,
-    rgba(0, 0, 0, 0.7) 47.41%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  opacity: 80%; */
-}
-
-.service-text-container {
-  color: white;
-  display: block;
-  text-align: center;
-  margin-top: 45px;
-  align-items: center;
+  /* position: relative; */
 }

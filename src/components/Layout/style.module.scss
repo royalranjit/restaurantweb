@@ -1,0 +1,86 @@
+@import "../../mixins.scss";
+.nav_container {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: px2vwL(80);
+  display: flex;
+  padding: px2vwL(16) px2vwL(156) px2vwL(16) px2vwL(156);
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 px2vwL(1) px2vwL(1) 0 #00000026;
+  z-index: 1;
+}
+
+#about:hover,
+#our_menu:hover,
+#service:hover,
+#advice:hover {
+  background: #e7f0f0;
+  border-radius: px2vwL(5);
+  color: #0c6967;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  width: px2vwL(168);
+  height: px2vwL(48);
+  padding: px2vwL(16) 0 px2vwL(16) 0;
+  gap: px2vwL(8);
+}
+
+.momo {
+  font-size: px2vwL(25);
+  font-weight: 700;
+  color: #0c6967;
+}
+
+.link_container {
+  display: flex;
+  align-items: center;
+  padding: px2vwL(8) px2vwL(12) px2vwL(8) px2vwL(12);
+  column-gap: px2vwL(28);
+  color: #6b788e;
+  :global .menu {
+    padding: px2vwL(10);
+    font-size: px2vwL(18);
+  }
+}
+
+.social_media_container {
+  display: flex;
+  align-items: center;
+  height: px2vwL(48);
+  width: px2vwL(360);
+  gap: px2vwL(32);
+}
+
+.socialMedia-icon {
+  display: flex;
+  height: px2vwL(32);
+  width: px2vwL(128);
+  gap: px2vwL(16);
+  align-items: center;
+}
+
+.socialMedia_icon p {
+  width: px2vwL(32);
+  height: px2vwL(32);
+  padding: px2vwL(6.67) px2vwL(8) px2vwL(6.67) px2vwL(8);
+  border-radius: px2vwL(100);
+  display: contents;
+  align-items: center;
+}
+
+.contact {
+  width: px2vwL(119);
+  height: px2vwL(41);
+  padding: px2vwL(12) px2vwL(22) px2vwL(12) px2vwL(22);
+  border-radius: px2vwL(100);
+  gap: px2vwL(8);
+  background: #d95103;
+  color: white;
+  border: none;
+}

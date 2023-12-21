@@ -1,0 +1,7 @@
+@import "../../mixins.scss";
+
+.Process_container {
+  min-height: 100vh;
+  :global .image_container {
+  }
+}

@@ -73,20 +73,6 @@
   color: #101828;
 }
 
-.explore {
-  display: flex;
-  align-items: center;
-  column-gap: 8px;
-  justify-content: center;
-  width: 259px;
-  height: 64px;
-  background: #0c6967;
-  color: white;
-  border-radius: 100px;
-  /* padding: 20px 40px 20px 40px; */
-  border: none;
-  margin-top: 50px;
-}
 
 .more-than {
   font-weight: 800px;
