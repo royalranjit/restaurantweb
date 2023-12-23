@@ -1,0 +1,25 @@
+@import "../../../mixins.scss";
+
+.contact_form_container {
+  :global .ant-form {
+    .first_name,
+    .last_name {
+      width: 261px;
+    }
+  }
+  :global .contact_form {
+    input {
+      height: px2vwL(44);
+    }
+    .first_last_name {
+      .ant-col {
+        input {
+          width: px2vwL(261);
+          height: px2vwL(44);
+        }
+      }
+    }
+    .email {
+    }
+  }
+}

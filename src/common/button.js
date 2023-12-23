@@ -1,5 +1,6 @@
 import React from "react";
 import "./button.css";
+import { Button } from "antd";
 
 export default function CustomeButton({
   title,
@@ -7,14 +8,20 @@ export default function CustomeButton({
   icon,
   style,
   onClick,
+  htmlType,
 }) {
   return (
     <div>
-      <button className="explore" style={style} onClick={onClick}>
+      <Button
+        htmlType={htmlType}
+        className="explore"
+        style={style}
+        onClick={onClick}
+      >
         {iconPosition === "LEFT" && icon}
         {title}
         {iconPosition === "RIGHT" && icon}
-      </button>
+      </Button>
     </div>
   );
 }

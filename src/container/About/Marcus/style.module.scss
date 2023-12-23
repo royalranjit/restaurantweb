@@ -1,0 +1,26 @@
+@import "../../../mixins.scss";
+
+.Marcus_container {
+    margin-top: px2vwL(100);
+  height: px2vwL(640);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: url("./Rectangle\ 12.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  :global .Marcus_text_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    background-color: #00000099;
+    backdrop-filter: blur(8px);
+    
+    .blur_container {
+      width: px2vwL(576);
+      height: px2vwL(413);
+    }
+  }
+}

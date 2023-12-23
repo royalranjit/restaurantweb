@@ -1,0 +1,23 @@
+@import "../../../mixins.scss";
+
+.Meet_container {
+  width: 100%;
+  height: px2vwL(512);
+  margin-top: px2vwL(100);
+  padding-left: px2vwL(156);
+  padding-right: px2vwL(156);
+
+  :global .Meet_Image_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: px2vwL(30);
+  }
+  :global .meet_text_container{
+    height: px2vwL(97);
+    width: 100% ;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    
+  }
+}

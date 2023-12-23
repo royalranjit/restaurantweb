@@ -1,0 +1,40 @@
+@import "../../../mixins.scss";
+
+.Love_container {
+  display: flex;
+  justify-content: space-between;
+  height: px2vwL(448);
+  width: px2vwL(1128);
+  margin-top: px2vwL(100);
+  :global .text_discription {
+    width: px2vwL(456);
+    height: px2vwL(270);
+    .madeWith {
+      color: #101828;
+      font-size: px2vwL(29);
+      font-weight: 800;
+    }
+  }
+}
+
+.HandCraft_container {
+  position: relative;
+  height: px2vwL(448);
+  width: px2vwL(1128);
+  display: flex;
+  justify-content: space-between;
+  margin-top: px2vwL(100);
+  :global .Handcraft_text_container {
+    width: px2vwL(456);
+    height: px2vwL(270);
+  }
+}
+
+.tradition_container {
+  
+  height: px2vwL(448);
+  width: px2vwL(1128);
+  display: flex;
+  justify-content: space-between;
+  margin-top: px2vwL(100);
+}
