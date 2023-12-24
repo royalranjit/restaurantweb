@@ -12,8 +12,8 @@ export default function Authentic() {
             <p className="heading">WE PRIDE OURSELF ON</p>
             <p className="description">
               <span style={{ color: "#D95103" }}>
-                Our authentic momo recipes{" "}
-              </span>{" "}
+                Our authentic momo recipes
+              </span>
               passed down through generations
             </p>
           </div>
