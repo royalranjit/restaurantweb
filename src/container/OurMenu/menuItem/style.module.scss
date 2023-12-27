@@ -1,0 +1,40 @@
+@import "../../../mixins.scss";
+
+.menuItems_container1 {
+  width: 100%;
+  // height: px2vwL(1172);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  :global .CardItem_container {
+    width: px2vwL(936);
+    height: px2vwL(876);
+    gap: px2vwL(80);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: px2vwL(70);
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.menuItems_container2 {
+  width: 100%;
+  // height: px2vwL(1172);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: px2vwL(64);
+  :global .CardItem_container {
+    width: px2vwL(936);
+    height: px2vwL(876);
+    gap: px2vwL(80);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: px2vwL(70);
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
