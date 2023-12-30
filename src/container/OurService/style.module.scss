@@ -1,0 +1,80 @@
+@import "../../mixins.scss";
+
+.Service_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: px2vwL(156);
+  padding-right: px2vwL(156);
+
+  :global .text_container {
+    width: px2vwL(551);
+    margin-top: px2vwL(119);
+  }
+}
+
+.secton2_container {
+  height: px2vwL(600);
+  background-image: linear-gradient(to right, rgba(0, 0, 0.3, 0.9), transparent),
+    url("./assists/Image\ \(5\).png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: px2vwL(60);
+  padding-left: px2vwL(157);
+  padding-top: px2vwL(335);
+
+  :global .description_container {
+    .heading {
+      color: #ffffff;
+      font-size: px2vwL(49);
+      font-weight: 700;
+    }
+    .text {
+      color: #ffffff;
+      font-size: px2vwL(25);
+      font-weight: 400;
+    }
+  }
+}
+
+.Party_container {
+  width: px2vwL(1440);
+  padding-left: px2vwL(156);
+  padding-right: px2vwL(156);
+  margin-top: px2vwL(80);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  :global .description_container {
+    width: px2vwL(456);
+    .scanCard_container {
+      margin-top: px2vwL(40);
+      width: px2vwL(456);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  :global .image_container {
+  }
+}
+
+.main_container {
+  width: px2vwL(1440);
+  padding-left: px2vwL(156);
+  padding-right: px2vwL(156);
+  margin-top: px2vwL(60);
+
+  :global .description_container {
+    width: px2vwL(1128);
+    height: px2vwL(305);
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

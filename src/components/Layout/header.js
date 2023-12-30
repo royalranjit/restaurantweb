@@ -21,7 +21,7 @@ const Navbar = () => {
       navigate("/About");
     }
     if (e.target.innerHTML === "Our Menu") {
-      navigate("/OurMenu");
+      navigate("/ourMenu");
       const ourMenuElement = document.getElementById("our_menu");
 
       if (ourMenuElement) {
@@ -33,7 +33,10 @@ const Navbar = () => {
       }
     }
     if (e.target.innerHTML === "Our Services") {
-      navigate("/OurService");
+      navigate("/ourService");
+    }
+    if (e.target.innerHTML === "Allergy Advice") {
+      navigate("/Allergy");
     }
   };
   useEffect(() => {

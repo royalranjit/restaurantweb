@@ -2,27 +2,25 @@
 
 .Process_container {
   height: px2vwL(635);
-  width: px2vwL(1441);
+  // width: px2vwL(1441);
   background-image: linear-gradient(to right, rgba(0, 0, 0.2, 0.8), transparent),
     url("./yadav.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  object-fit: contain;
-  color: white;
-  display: flex;
-  flex-direction: column;
   position: relative;
-  gap: 10px;
+  padding-left: px2vwL(156);
+  padding-top: px2vwL(367);
 
-  :global .heading {
-    font-weight: 700;
-    font-size: px2vwL(49);
-  }
-  .description {
-    font-weight: 400;
-    font-size: px2vwL(25);
+  :global .main_conatiner {
+    .heading {
+      font-weight: 700;
+      font-size: px2vwL(49);
+      color: #ffffff;
+    }
+    .description {
+      font-weight: 400;
+      font-size: px2vwL(25);
+      color: #ffffff;
+    }
   }
 }
