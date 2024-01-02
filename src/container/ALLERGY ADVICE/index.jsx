@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import CardList, { Advice } from "./Advice";
 
 export default function AllergyAdvice() {
   return (
-    <div></div>
-  )
+    <div>
+      <Advice />
+      <CardList />
+    </div>
+  );
 }

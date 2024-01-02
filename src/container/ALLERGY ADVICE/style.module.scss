@@ -1,0 +1,16 @@
+@import "../../mixins.scss";
+
+.Advice_container {
+  width: px2vwL(1440);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: px2vwL(156);
+  padding-right: px2vwL(156);
+
+  :global .description_container {
+    width: px2vwL(576);
+    // height: px2vwL(391);
+    margin-top: px2vwL(110);
+  }
+}
